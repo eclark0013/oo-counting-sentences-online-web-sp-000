@@ -20,6 +20,7 @@ class String
     self.split("").each do |c|
       if endings.include? "#{c}"
         sentences+=1
+        binding.pry
       end
     end
     sentences
