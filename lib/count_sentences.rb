@@ -20,7 +20,7 @@ class String
     input_array = self.split("")
     for i in input_array
       if endings.include? "input_array[i]" &&
-        
+
         sentences+=1
       end
     end
