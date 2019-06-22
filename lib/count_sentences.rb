@@ -18,7 +18,7 @@ class String
     sentences=0
     endings=[".","?","!"]
     input_array = self.split("")
-    for i in input_array
+    for i in 0..input_array.length
       if endings.include?("input_array[i]") && !endings.include?("input_array[i+1]")
         sentences+=1
       end
