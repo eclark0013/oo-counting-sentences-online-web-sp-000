@@ -18,5 +18,3 @@ class String
     self.scan(/\S+[.!?]/).count
   end
 end
-
-binding.pry
