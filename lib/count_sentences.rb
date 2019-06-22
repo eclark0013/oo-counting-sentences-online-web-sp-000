@@ -22,5 +22,6 @@ class String
         sentences+=1
       end
     end
+    sentences
   end
 end
