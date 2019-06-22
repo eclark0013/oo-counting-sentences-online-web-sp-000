@@ -15,12 +15,11 @@ class String
   end
 
   def count_sentences
-    sentences==0
+    sentences=0
     endings=[".","?","!"]
     self.split("").each do |c|
       if endings.include? "#{c}"
         sentences+=1
-        binding.pry
       end
     end
     sentences
