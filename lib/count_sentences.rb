@@ -17,8 +17,10 @@ class String
   def count_sentences
     sentences=0
     endings=[".","?","!"]
-    self.split("").each do |c|
-      if endings.include? "#{c}"
+    input_array = self.split("")
+    for i in input_array
+      if endings.include? "input_array[i]" &&
+        
         sentences+=1
       end
     end
